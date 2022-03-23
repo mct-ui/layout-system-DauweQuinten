@@ -5,42 +5,70 @@
     Will be mostly used on o-layout__item
 */
 
-.u-flex-basis-auto {}
+.u-flex-basis-auto {
+  flex-basis: auto;
+}
 
-.u-1-of-2 {}
+.u-1-of-2 {
+  flex-basis: calc(100% / 2) !important;
+}
 
-.u-1-of-3 {}
+.u-1-of-3 {
+  flex-basis: calc(100% / 3) !important;
+}
 
-.u-2-of-3 {}
+.u-2-of-3 {
+  flex-basis: calc(100% / 3 * 2) !important;
+}
 
-.u-1-of-4 {}
+.u-1-of-4 {
+  flex-basis: calc(100% / 4) !important;
+}
 
-.u-3-of-4 {}
+.u-3-of-4 {
+  flex-basis: calc(100% / 4 * 3) !important;
+}
 
-.u-1-of-5 {}
+.u-1-of-5 {
+  flex-basis: calc(100% / 5) !important;
+}
 
-.u-2-of-5 {}
+.u-2-of-5 {
+  flex-basis: calc(100% / 5 * 2) !important;
+}
 
-.u-3-of-5 {}
+.u-3-of-5 {
+  flex-basis: calc(100% / 5 * 3) !important;
+}
 
-.u-4-of-5 {}
+.u-4-of-5 {
+  flex-basis: calc(100% / 5 * 4) !important;
+}
 
-.u-1-of-6 {}
+.u-1-of-6 {
+  flex-basis: calc(100% / 6) !important;
+}
 
-.u-5-of-6 {}
+.u-5-of-6 {
+  flex-basis: calc(100% / 6 * 5) !important;
+}
 
 @media (min-width: 576px) {
-    .u-1-of-2-bp1 {}
+  .u-1-of-2-bp1 {
+  }
 }
 
 @media (min-width: 768px) {
-    .u-1-of-2-bp2 {}
+  .u-1-of-2-bp2 {
+  }
 }
 
 @media (min-width: 992px) {
-    .u-1-of-2-bp3 {}
+  .u-1-of-2-bp3 {
+  }
 }
 
 @media (min-width: 1200px) {
-    .u-1-of-2-bp4 {}
+  .u-1-of-2-bp4 {
+  }
 }
